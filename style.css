@@ -68,16 +68,15 @@ h1{
 
 
 
-.responsive-video{
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    z-index: -2;
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    filter: blur(100);
+    z-index: -1;
 }
+
 
 
 
